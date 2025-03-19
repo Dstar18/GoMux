@@ -10,9 +10,13 @@ import (
 )
 
 func main() {
+	// initialize log
+	config.InitLogger()
 	// connect db and migrate
 	config.InitDB()
 	config.InitMigrate()
+
+	config.Logger.Info("starting server...")
 
 	// run server
 	r := mux.NewRouter()
