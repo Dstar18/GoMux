@@ -1,0 +1,13 @@
+{
+    "server": {
+      "port": "3000"
+    },
+    "database": {
+      "host": "localhost",
+      "user": "postgres",
+      "password": "root",
+      "name": "goMuxDB",
+      "port": "5432"
+    }
+  }
+  
