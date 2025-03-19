@@ -1,0 +1,32 @@
+services:
+  # Service PostgreSQL
+  postgres:
+    image: postgres:13
+    container_name: GoMux-postgres-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: goMuxDB
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  # Service Adminer
+  adminer:
+    image: adminer
+    container_name: adminer
+    ports:
+      - "8081:8080"
+
+  # Service aplikasi Golang
+  app:
+    build: .
+    container_name: GoMux
+    ports:
+      - "3000:3000"
+    depends_on:
+      - postgres
+
+volumes:
+  postgres_data:
