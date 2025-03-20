@@ -197,3 +197,58 @@ func (h *UserHandler) CreateUser(w http.ResponseWriter, r *http.Request) {
 	})
 	return
 }
+
+func (h *UserHandler) DeleteUser(w http.ResponseWriter, r *http.Request) {
+	// Get id from URL
+	vars := mux.Vars(r)
+	idStr := vars["id"]
+
+	// check format ID
+	id, err := strconv.Atoi(idStr)
+	if err != nil {
+		config.Logger.Error("Invalid ID format!")
+		w.Header().Set("Content-Type", "application/json")
+		w.WriteHeader(http.StatusInternalServerError)
+		json.NewEncoder(w).Encode(map[string]interface{}{
+			"code":    http.StatusInternalServerError,
+			"message": "Invalid ID format!",
+		})
+		return
+	}
+
+	// check id
+	_, errGet := h.userUseCase.GetUserById(uint(id))
+	if errGet != nil {
+		config.Logger.Error("Data not found!")
+		w.Header().Set("Content-Type", "application/json")
+		w.WriteHeader(http.StatusNotFound)
+		json.NewEncoder(w).Encode(map[string]interface{}{
+			"code":    http.StatusNotFound,
+			"message": "Data not found!",
+		})
+		return
+	}
+
+	// delete to db
+	if err := h.userUseCase.DeleteUser(uint(id)); err != nil {
+		config.Logger.Error(err.Error())
+		w.Header().Set("Content-Type", "application/json")
+		w.WriteHeader(http.StatusInternalServerError)
+		json.NewEncoder(w).Encode(map[string]interface{}{
+			"code":    http.StatusInternalServerError,
+			"message": err.Error(),
+		})
+		return
+	}
+
+	// return success
+	config.Logger.Info("Delete user successfully")
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(http.StatusOK)
+	json.NewEncoder(w).Encode(map[string]interface{}{
+		"code":    http.StatusOK,
+		"message": "Delete user successfully",
+		"data":    id,
+	})
+	return
+}

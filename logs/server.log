@@ -264,3 +264,49 @@
 {"level":"info","msg":"Create user successfully","time":"2025-03-20T15:37:26+07:00"}
 {"level":"info","msg":"Gets user successfully","time":"2025-03-20T15:37:31+07:00"}
 {"level":"info","msg":"Gets user successfully","time":"2025-03-20T15:37:31+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T15:49:22+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T15:49:22+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T15:49:22+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T15:49:22+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T15:49:22+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T15:49:22+07:00"}
+{"level":"error","msg":"Data not found!","time":"2025-03-20T15:49:51+07:00"}
+{"level":"error","msg":"Data not found!","time":"2025-03-20T15:49:51+07:00"}
+{"level":"error","msg":"Invalid ID format!","time":"2025-03-20T15:49:55+07:00"}
+{"level":"error","msg":"Invalid ID format!","time":"2025-03-20T15:49:55+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T15:50:26+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T15:50:26+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T15:50:26+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T15:50:26+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T15:50:26+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T15:50:26+07:00"}
+{"level":"error","msg":"Invalid ID format!","time":"2025-03-20T15:50:29+07:00"}
+{"level":"error","msg":"Invalid ID format!","time":"2025-03-20T15:50:29+07:00"}
+{"level":"info","msg":"Delete user successfully","time":"2025-03-20T15:50:32+07:00"}
+{"level":"info","msg":"Delete user successfully","time":"2025-03-20T15:50:32+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T15:59:56+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T15:59:56+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T15:59:56+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T15:59:56+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T15:59:56+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T15:59:56+07:00"}
+{"level":"info","msg":"Delete user successfully","time":"2025-03-20T16:00:01+07:00"}
+{"level":"info","msg":"Delete user successfully","time":"2025-03-20T16:00:01+07:00"}
+{"level":"info","msg":"Delete user successfully","time":"2025-03-20T16:00:05+07:00"}
+{"level":"info","msg":"Delete user successfully","time":"2025-03-20T16:00:05+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T16:05:14+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T16:05:14+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T16:05:14+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T16:05:14+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T16:05:15+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T16:05:15+07:00"}
+{"level":"error","msg":"Data not found!","time":"2025-03-20T16:05:17+07:00"}
+{"level":"error","msg":"Data not found!","time":"2025-03-20T16:05:17+07:00"}
+{"level":"error","msg":"Invalid ID format!","time":"2025-03-20T16:05:20+07:00"}
+{"level":"error","msg":"Invalid ID format!","time":"2025-03-20T16:05:20+07:00"}
+{"level":"info","msg":"Delete user successfully","time":"2025-03-20T16:05:23+07:00"}
+{"level":"info","msg":"Delete user successfully","time":"2025-03-20T16:05:23+07:00"}
+{"level":"error","msg":"Data not found!","time":"2025-03-20T16:05:27+07:00"}
+{"level":"error","msg":"Data not found!","time":"2025-03-20T16:05:27+07:00"}
+{"level":"info","msg":"Gets user successfully","time":"2025-03-20T16:05:30+07:00"}
+{"level":"info","msg":"Gets user successfully","time":"2025-03-20T16:05:30+07:00"}

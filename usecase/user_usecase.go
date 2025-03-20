@@ -10,6 +10,7 @@ type UserUseCase interface {
 	GetUserById(id uint) (*entity.User, error)
 	CreateUser(user *entity.User) error
 	GetUserByField(param string, value interface{}) (*entity.User, error)
+	DeleteUser(id uint) error
 }
 
 type userUseCase struct {
@@ -35,4 +36,8 @@ func (u *userUseCase) CreateUser(user *entity.User) error {
 
 func (u *userUseCase) GetUserByField(param string, value interface{}) (*entity.User, error) {
 	return u.userRepo.GetByField(param, value)
+}
+
+func (u *userUseCase) DeleteUser(id uint) error {
+	return u.userRepo.Delete(id)
 }
