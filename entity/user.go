@@ -2,12 +2,10 @@ package entity
 
 import (
 	"time"
-
-	"gorm.io/gorm"
 )
 
 type User struct {
-	gorm.Model
+	// gorm.Model
 	ID        uint      `gorm:"primaryKey" json:"id"`
 	Name      string    `gorm:"type:varchar(100);not null" json:"name"`
 	Email     string    `gorm:"type:varchar(100);unique;not null" json:"email"`

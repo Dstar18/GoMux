@@ -2,11 +2,12 @@ package main
 
 import (
 	"GoMux/config"
+	"GoMux/handler"
+	"GoMux/repository"
 	"GoMux/routes"
+	"GoMux/usecase"
 	"log"
 	"net/http"
-
-	"github.com/gorilla/mux"
 )
 
 func main() {
@@ -17,14 +18,16 @@ func main() {
 	config.InitDB()
 	config.InitMigrate()
 
-	config.Logger.Info("starting server...")
+	// initialize routes
+	userRepo := repository.NewUserRepository(config.DB)
+	userUseCase := usecase.NewUserUseCase(userRepo)
+	userHandler := handler.NewUserHandler(userUseCase)
+
+	r := routes.InitRoutes(userHandler)
 
 	// run server
-	r := mux.NewRouter()
-	routes.InitRoutes(r)
-
-	log.Println("Server Run ::3000")
-	if err := http.ListenAndServe(":3000", r); err != nil {
-		log.Fatal(err)
-	}
+	port := config.AppConfig.Server.Port
+	config.Logger.Info("starting server on port: ", port)
+	log.Println("starting server on port:", port)
+	http.ListenAndServe(":"+port, r)
 }

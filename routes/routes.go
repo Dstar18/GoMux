@@ -1,16 +1,20 @@
 package routes
 
 import (
-	"fmt"
+	"GoMux/handler"
 	"net/http"
 
 	"github.com/gorilla/mux"
 )
 
-func InitRoutes(r *mux.Router) {
-	r.HandleFunc("/", Homehandler).Methods("GET")
-}
+func InitRoutes(userHandler *handler.UserHandler) *mux.Router {
+	r := mux.NewRouter()
 
-func Homehandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, "Selamat datang di Golang Mux!")
+	r.HandleFunc("/users", userHandler.GetUsers).Methods("GET")
+
+	r.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		w.Write([]byte("Welcome to Go Mux!"))
+	})
+
+	return r
 }
