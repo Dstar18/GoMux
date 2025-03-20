@@ -8,6 +8,8 @@ import (
 type UserUseCase interface {
 	GetUsers() ([]entity.User, error)
 	GetUserById(id uint) (*entity.User, error)
+	CreateUser(user *entity.User) error
+	GetUserByField(param string, value interface{}) (*entity.User, error)
 }
 
 type userUseCase struct {
@@ -25,4 +27,12 @@ func (u *userUseCase) GetUsers() ([]entity.User, error) {
 
 func (u *userUseCase) GetUserById(id uint) (*entity.User, error) {
 	return u.userRepo.GetByID(id)
+}
+
+func (u *userUseCase) CreateUser(user *entity.User) error {
+	return u.userRepo.Create(user)
+}
+
+func (u *userUseCase) GetUserByField(param string, value interface{}) (*entity.User, error) {
+	return u.userRepo.GetByField(param, value)
 }

@@ -160,3 +160,107 @@
 {"level":"error","msg":"Data not found!","time":"2025-03-20T12:43:06+07:00"}
 {"level":"info","msg":"Get user successfully","time":"2025-03-20T12:43:08+07:00"}
 {"level":"info","msg":"Get user successfully","time":"2025-03-20T12:43:08+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T12:50:41+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T12:50:41+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T12:50:41+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T12:50:41+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T12:50:41+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T12:50:41+07:00"}
+{"level":"info","msg":"Create user successfully","time":"2025-03-20T12:51:03+07:00"}
+{"level":"info","msg":"Create user successfully","time":"2025-03-20T12:51:03+07:00"}
+{"level":"info","msg":"Create user successfully","time":"2025-03-20T12:51:28+07:00"}
+{"level":"info","msg":"Create user successfully","time":"2025-03-20T12:51:28+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T14:17:27+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T14:17:27+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T14:17:27+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T14:17:27+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T14:17:27+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T14:17:27+07:00"}
+{"level":"info","msg":"Create user successfully","time":"2025-03-20T14:17:31+07:00"}
+{"level":"info","msg":"Create user successfully","time":"2025-03-20T14:17:31+07:00"}
+{"level":"info","msg":"Create user successfully","time":"2025-03-20T14:17:37+07:00"}
+{"level":"info","msg":"Create user successfully","time":"2025-03-20T14:17:37+07:00"}
+{"level":"info","msg":"Create user successfully","time":"2025-03-20T14:17:38+07:00"}
+{"level":"info","msg":"Create user successfully","time":"2025-03-20T14:17:38+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T14:19:20+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T14:19:20+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T14:19:20+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T14:19:20+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T14:19:20+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T14:19:20+07:00"}
+{"level":"error","msg":"map[Email:This field is required  Password:This field is required  Role:This field is required ]","time":"2025-03-20T14:19:22+07:00"}
+{"level":"error","msg":"map[Email:This field is required  Password:This field is required  Role:This field is required ]","time":"2025-03-20T14:19:22+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T14:22:48+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T14:22:48+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T14:22:48+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T14:22:48+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T14:22:48+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T14:22:48+07:00"}
+{"level":"error","msg":"map[Email:This field is required  Password:This field is required  Role:This field is required ]","time":"2025-03-20T14:22:50+07:00"}
+{"level":"error","msg":"map[Email:This field is required  Password:This field is required  Role:This field is required ]","time":"2025-03-20T14:22:50+07:00"}
+{"level":"error","msg":"Invalid request body","time":"2025-03-20T14:23:00+07:00"}
+{"level":"error","msg":"Invalid request body","time":"2025-03-20T14:23:00+07:00"}
+{"level":"error","msg":"map[Email:This field is required  Name:This field is required  Password:This field is required  Role:This field is required ]","time":"2025-03-20T14:23:00+07:00"}
+{"level":"error","msg":"map[Email:This field is required  Name:This field is required  Password:This field is required  Role:This field is required ]","time":"2025-03-20T14:23:00+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T14:23:26+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T14:23:26+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T14:23:26+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T14:23:26+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T14:23:26+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T14:23:26+07:00"}
+{"level":"error","msg":"Invalid request body","time":"2025-03-20T14:23:28+07:00"}
+{"level":"error","msg":"Invalid request body","time":"2025-03-20T14:23:28+07:00"}
+{"level":"error","msg":"Invalid request body","time":"2025-03-20T14:23:38+07:00"}
+{"level":"error","msg":"Invalid request body","time":"2025-03-20T14:23:38+07:00"}
+{"level":"error","msg":"Invalid request body","time":"2025-03-20T14:23:40+07:00"}
+{"level":"error","msg":"Invalid request body","time":"2025-03-20T14:23:40+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T14:48:16+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T14:48:16+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T14:48:16+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T14:48:16+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T14:48:16+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T14:48:16+07:00"}
+{"level":"error","msg":"map[Email:This field is email  Password:This field is min 8]","time":"2025-03-20T14:49:04+07:00"}
+{"level":"error","msg":"map[Email:This field is email  Password:This field is min 8]","time":"2025-03-20T14:49:04+07:00"}
+{"level":"error","msg":"map[Password:This field is min 8]","time":"2025-03-20T14:49:12+07:00"}
+{"level":"error","msg":"map[Password:This field is min 8]","time":"2025-03-20T14:49:12+07:00"}
+{"level":"error","msg":"password harus minimal 8 karakter, mengandung huruf besar, huruf kecil, angka, dan karakter spesial","time":"2025-03-20T14:49:17+07:00"}
+{"level":"error","msg":"password harus minimal 8 karakter, mengandung huruf besar, huruf kecil, angka, dan karakter spesial","time":"2025-03-20T14:49:17+07:00"}
+{"level":"error","msg":"map[Password:This field is min 8]","time":"2025-03-20T14:49:31+07:00"}
+{"level":"error","msg":"map[Password:This field is min 8]","time":"2025-03-20T14:49:31+07:00"}
+{"level":"error","msg":"password harus minimal 8 karakter, mengandung huruf besar, huruf kecil, angka, dan karakter spesial","time":"2025-03-20T14:49:41+07:00"}
+{"level":"error","msg":"password harus minimal 8 karakter, mengandung huruf besar, huruf kecil, angka, dan karakter spesial","time":"2025-03-20T14:49:41+07:00"}
+{"level":"error","msg":"password harus minimal 8 karakter, mengandung huruf besar, huruf kecil, angka, dan karakter spesial","time":"2025-03-20T14:49:50+07:00"}
+{"level":"error","msg":"password harus minimal 8 karakter, mengandung huruf besar, huruf kecil, angka, dan karakter spesial","time":"2025-03-20T14:49:50+07:00"}
+{"level":"info","msg":"Create user successfully","time":"2025-03-20T14:49:54+07:00"}
+{"level":"info","msg":"Create user successfully","time":"2025-03-20T14:49:54+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T15:20:36+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T15:20:36+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T15:20:36+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T15:20:36+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T15:20:36+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T15:20:36+07:00"}
+{"level":"warning","msg":"email dedi@mail.com is already","time":"2025-03-20T15:20:47+07:00"}
+{"level":"warning","msg":"email dedi@mail.com is already","time":"2025-03-20T15:20:47+07:00"}
+{"level":"info","msg":"Create user successfully","time":"2025-03-20T15:20:54+07:00"}
+{"level":"info","msg":"Create user successfully","time":"2025-03-20T15:20:54+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T15:33:17+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T15:33:17+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T15:33:17+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T15:33:17+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T15:33:17+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T15:33:17+07:00"}
+{"level":"info","msg":"Create user successfully","time":"2025-03-20T15:33:24+07:00"}
+{"level":"info","msg":"Create user successfully","time":"2025-03-20T15:33:24+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T15:37:04+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T15:37:04+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T15:37:04+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T15:37:04+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T15:37:04+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T15:37:04+07:00"}
+{"level":"info","msg":"Gets user successfully","time":"2025-03-20T15:37:09+07:00"}
+{"level":"info","msg":"Gets user successfully","time":"2025-03-20T15:37:09+07:00"}
+{"level":"info","msg":"Create user successfully","time":"2025-03-20T15:37:26+07:00"}
+{"level":"info","msg":"Create user successfully","time":"2025-03-20T15:37:26+07:00"}
+{"level":"info","msg":"Gets user successfully","time":"2025-03-20T15:37:31+07:00"}
+{"level":"info","msg":"Gets user successfully","time":"2025-03-20T15:37:31+07:00"}
