@@ -11,6 +11,7 @@ type UserRepository interface {
 	GetByID(id uint) (*entity.User, error)
 	Create(user *entity.User) error
 	GetByField(param string, value interface{}) (*entity.User, error)
+	Update(user *entity.User) error
 	Delete(id uint) error
 }
 
@@ -43,6 +44,10 @@ func (r *userRepository) GetByField(param string, value interface{}) (*entity.Us
 	var user entity.User
 	err := r.db.Where(param+" = ?", value).First(&user).Error
 	return &user, err
+}
+
+func (r *userRepository) Update(user *entity.User) error {
+	return r.db.Save(user).Error
 }
 
 func (r *userRepository) Delete(id uint) error {

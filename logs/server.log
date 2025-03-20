@@ -310,3 +310,79 @@
 {"level":"error","msg":"Data not found!","time":"2025-03-20T16:05:27+07:00"}
 {"level":"info","msg":"Gets user successfully","time":"2025-03-20T16:05:30+07:00"}
 {"level":"info","msg":"Gets user successfully","time":"2025-03-20T16:05:30+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T16:18:16+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T16:18:16+07:00"}
+{"level":"error","msg":"Failed to connect to database!","time":"2025-03-20T16:18:16+07:00"}
+{"level":"error","msg":"Failed to connect to database!","time":"2025-03-20T16:18:16+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T16:18:32+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T16:18:32+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T16:18:32+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T16:18:32+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T16:18:32+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T16:18:32+07:00"}
+{"level":"error","msg":"Invalid request body","time":"2025-03-20T16:18:48+07:00"}
+{"level":"error","msg":"Invalid request body","time":"2025-03-20T16:18:48+07:00"}
+{"level":"info","msg":"Update user successfully","time":"2025-03-20T16:19:09+07:00"}
+{"level":"info","msg":"Update user successfully","time":"2025-03-20T16:19:09+07:00"}
+{"level":"info","msg":"Update user successfully","time":"2025-03-20T16:22:16+07:00"}
+{"level":"info","msg":"Update user successfully","time":"2025-03-20T16:22:16+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T16:22:57+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T16:22:57+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T16:22:57+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T16:22:57+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T16:22:57+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T16:22:57+07:00"}
+{"level":"info","msg":"Update user successfully","time":"2025-03-20T16:23:00+07:00"}
+{"level":"info","msg":"Update user successfully","time":"2025-03-20T16:23:00+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T16:24:12+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T16:24:12+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T16:24:12+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T16:24:12+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T16:24:12+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T16:24:12+07:00"}
+{"level":"info","msg":"Update user successfully","time":"2025-03-20T16:24:14+07:00"}
+{"level":"info","msg":"Update user successfully","time":"2025-03-20T16:24:14+07:00"}
+{"level":"info","msg":"Update user successfully","time":"2025-03-20T16:24:33+07:00"}
+{"level":"info","msg":"Update user successfully","time":"2025-03-20T16:24:33+07:00"}
+{"level":"info","msg":"Update user successfully","time":"2025-03-20T16:24:38+07:00"}
+{"level":"info","msg":"Update user successfully","time":"2025-03-20T16:24:38+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T16:26:57+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T16:26:57+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T16:26:57+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T16:26:57+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T16:26:57+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T16:26:57+07:00"}
+{"level":"error","msg":"map[Email:This field is required  Role:This field is required ]","time":"2025-03-20T16:27:02+07:00"}
+{"level":"error","msg":"map[Email:This field is required  Role:This field is required ]","time":"2025-03-20T16:27:02+07:00"}
+{"level":"info","msg":"Update user successfully","time":"2025-03-20T16:27:23+07:00"}
+{"level":"info","msg":"Update user successfully","time":"2025-03-20T16:27:23+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T16:28:05+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T16:28:05+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T16:28:05+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T16:28:05+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T16:28:05+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T16:28:05+07:00"}
+{"level":"info","msg":"Update user successfully","time":"2025-03-20T16:28:07+07:00"}
+{"level":"info","msg":"Update user successfully","time":"2025-03-20T16:28:07+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T16:31:14+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T16:31:14+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T16:31:14+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T16:31:14+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T16:31:14+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T16:31:14+07:00"}
+{"level":"info","msg":"Update user successfully","time":"2025-03-20T16:31:17+07:00"}
+{"level":"info","msg":"Update user successfully","time":"2025-03-20T16:31:17+07:00"}
+{"level":"info","msg":"Gets user successfully","time":"2025-03-20T16:31:24+07:00"}
+{"level":"info","msg":"Gets user successfully","time":"2025-03-20T16:31:24+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T16:32:20+07:00"}
+{"level":"info","msg":"Logger initialized successfully!","time":"2025-03-20T16:32:20+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T16:32:20+07:00"}
+{"level":"info","msg":"Database connection success!","time":"2025-03-20T16:32:20+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T16:32:20+07:00"}
+{"level":"info","msg":"starting server on port: 3000","time":"2025-03-20T16:32:20+07:00"}
+{"level":"info","msg":"Update user successfully","time":"2025-03-20T16:32:27+07:00"}
+{"level":"info","msg":"Update user successfully","time":"2025-03-20T16:32:27+07:00"}
+{"level":"info","msg":"Gets user successfully","time":"2025-03-20T16:32:33+07:00"}
+{"level":"info","msg":"Gets user successfully","time":"2025-03-20T16:32:33+07:00"}
+{"level":"info","msg":"Get user successfully","time":"2025-03-20T16:32:37+07:00"}
+{"level":"info","msg":"Get user successfully","time":"2025-03-20T16:32:37+07:00"}

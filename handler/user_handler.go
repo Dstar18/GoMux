@@ -198,6 +198,106 @@ func (h *UserHandler) CreateUser(w http.ResponseWriter, r *http.Request) {
 	return
 }
 
+type UserUpdateValidate struct {
+	Name  string `json:"name" validate:"required,min=2,max=50"`
+	Email string `json:"email" validate:"required,email"`
+	Role  string `json:"role" validate:"required,min=2,max=20"`
+}
+
+func (h *UserHandler) UpdateUser(w http.ResponseWriter, r *http.Request) {
+	// Get id from URL
+	vars := mux.Vars(r)
+	idStr := vars["id"]
+
+	// check format ID
+	id, err := strconv.Atoi(idStr)
+	if err != nil {
+		config.Logger.Error("Invalid ID format!")
+		w.Header().Set("Content-Type", "application/json")
+		w.WriteHeader(http.StatusInternalServerError)
+		json.NewEncoder(w).Encode(map[string]interface{}{
+			"code":    http.StatusInternalServerError,
+			"message": "Invalid ID format!",
+		})
+		return
+	}
+
+	// check data by id
+	_, errGet := h.userUseCase.GetUserById(uint(id))
+	if errGet != nil {
+		config.Logger.Error("Data not found!")
+		w.Header().Set("Content-Type", "application/json")
+		w.WriteHeader(http.StatusNotFound)
+		json.NewEncoder(w).Encode(map[string]interface{}{
+			"code":    http.StatusNotFound,
+			"message": "Data not found!",
+		})
+		return
+	}
+
+	// initize validate
+	var user UserUpdateValidate
+
+	// check request body
+	if err := json.NewDecoder(r.Body).Decode(&user); err != nil {
+		config.Logger.Error("Invalid request body")
+		w.Header().Set("Content-Type", "application/json")
+		w.WriteHeader(http.StatusBadRequest)
+		json.NewEncoder(w).Encode(map[string]interface{}{
+			"code":    http.StatusBadRequest,
+			"message": "Invalid request body",
+		})
+		return
+	}
+
+	// validation
+	validate := validator.New()
+	if err := validate.Struct(user); err != nil {
+		errors := make(map[string]string)
+		for _, err := range err.(validator.ValidationErrors) {
+			errors[err.Field()] = "This field is" + " " + err.Tag() + " " + err.Param()
+		}
+		config.Logger.Error(errors)
+		w.Header().Set("Content-Type", "application/json")
+		w.WriteHeader(http.StatusBadRequest)
+		json.NewEncoder(w).Encode(map[string]interface{}{
+			"code":    http.StatusBadRequest,
+			"message": errors,
+		})
+		return
+	}
+
+	param := entity.User{
+		ID:        uint(id),
+		Name:      user.Name,
+		Email:     user.Email,
+		Role:      user.Role,
+		UpdatedAt: time.Now(),
+	}
+	// create to db
+	if err := h.userUseCase.UpdateUser(&param); err != nil {
+		config.Logger.Error(err.Error())
+		w.Header().Set("Content-Type", "application/json")
+		w.WriteHeader(http.StatusInternalServerError)
+		json.NewEncoder(w).Encode(map[string]interface{}{
+			"code":    http.StatusInternalServerError,
+			"message": err.Error(),
+		})
+		return
+	}
+
+	// return success
+	config.Logger.Info("Update user successfully")
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(http.StatusOK)
+	json.NewEncoder(w).Encode(map[string]interface{}{
+		"code":    http.StatusOK,
+		"message": "Update user successfully",
+		"data":    nil,
+	})
+	return
+}
+
 func (h *UserHandler) DeleteUser(w http.ResponseWriter, r *http.Request) {
 	// Get id from URL
 	vars := mux.Vars(r)
