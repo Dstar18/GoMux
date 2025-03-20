@@ -7,6 +7,7 @@ import (
 
 type UserUseCase interface {
 	GetUsers() ([]entity.User, error)
+	GetUserById(id uint) (*entity.User, error)
 }
 
 type userUseCase struct {
@@ -20,4 +21,8 @@ func NewUserUseCase(userRepo repository.UserRepository) UserUseCase {
 
 func (u *userUseCase) GetUsers() ([]entity.User, error) {
 	return u.userRepo.GetAll()
+}
+
+func (u *userUseCase) GetUserById(id uint) (*entity.User, error) {
+	return u.userRepo.GetByID(id)
 }

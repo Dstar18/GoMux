@@ -8,6 +8,7 @@ import (
 
 type UserRepository interface {
 	GetAll() ([]entity.User, error)
+	GetByID(id uint) (*entity.User, error)
 }
 
 type userRepository struct {
@@ -23,4 +24,10 @@ func (r *userRepository) GetAll() ([]entity.User, error) {
 	var users []entity.User
 	err := r.db.Find(&users).Error
 	return users, err
+}
+
+func (r *userRepository) GetByID(id uint) (*entity.User, error) {
+	var user entity.User
+	err := r.db.First(&user, id).Error
+	return &user, err
 }
