@@ -24,12 +24,14 @@ var AppConfig Config
 func LoadConfig() {
 	file, err := os.Open("dev.json")
 	if err != nil {
+		Logger.Error("Failed to open config file")
 		log.Fatalf("Failed to open config file: %v", err)
 	}
 	defer file.Close()
 
 	decoder := json.NewDecoder(file)
 	if err := decoder.Decode(&AppConfig); err != nil {
+		Logger.Error("Failed to decode config JSON")
 		log.Fatalf("Failed to decode config JSON: %v", err)
 	}
 }
